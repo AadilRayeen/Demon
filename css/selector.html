@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /* Tag selector */
+            h2 {
+                color: black;
+            }
+            h2 {
+                color: red;
+            }
+            h3 {
+                color: yellow;
+            
+        }
+        /* class selector */
+        .para {
+            font-size: larger;
+        }
+        /* id selector */
+            #para {
+                font-size: smaller;
+            }
+        /* Combinator CSS */    
+            p.comb p#comb {
+                color: brown;
+            }
+            /* UNIVERSAL SELECTOR */
+            * {
+                 font-family: Arial, Helvetica, sans-serif;
+            }
+            div > p {
+                color: red;
+                font-size: 30px;
+            }
+            
+        </style>
+
+    </head>
+
+    <body>
+        <h2>This H2 Tag</h2>
+        <h2>This H2 Tag</h2>
+
+        <p class="para"> This is a paragraph for class</p>
+        <p id="para">This ia paragraph for class </p>
+
+        <h1 class="comb">Heading Text</h1> 
+        <p class="comb">Paragraph Text</p>   
+        <div style="width: 100%; border: 1px solid black;"> 
+            <span>
+            <p>This para is in div block. </p>
+            </span>
+        </div>
+    </body>
+
+
+</html>
